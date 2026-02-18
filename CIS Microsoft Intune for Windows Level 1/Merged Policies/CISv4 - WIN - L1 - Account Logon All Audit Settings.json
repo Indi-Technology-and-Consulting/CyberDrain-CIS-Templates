@@ -1,0 +1,169 @@
+{
+    "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(assignments(),settings())/$entity",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
+    "@odata.id": "deviceManagement/configurationPolicies('fa0507af-7394-4976-9805-5e713183d3b2')",
+    "@odata.editLink": "deviceManagement/configurationPolicies('fa0507af-7394-4976-9805-5e713183d3b2')",
+    "createdDateTime@odata.type": "#DateTimeOffset",
+    "createdDateTime": "2025-08-28T09:51:27.9124683Z",
+    "creationSource": null,
+    "description": "CIS Benchmark v4 - All Account Logon and Account Logon Logoff audit policy settings consolidated into a single policy.",
+    "lastModifiedDateTime@odata.type": "#DateTimeOffset",
+    "lastModifiedDateTime": "2025-08-28T09:51:27.9124683Z",
+    "name": "CISv4 - WIN - L1 - Account Logon: All Audit Settings",
+    "platforms@odata.type": "#microsoft.graph.deviceManagementConfigurationPlatforms",
+    "platforms": "windows10",
+    "priorityMetaData": null,
+    "roleScopeTagIds@odata.type": "#Collection(String)",
+    "roleScopeTagIds": [
+        "0"
+    ],
+    "settingCount": 5,
+    "technologies@odata.type": "#microsoft.graph.deviceManagementConfigurationTechnologies",
+    "technologies": "mdm",
+    "id": "fa0507af-7394-4976-9805-5e713183d3b2",
+    "templateReference": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference",
+        "templateId": "",
+        "templateFamily@odata.type": "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
+        "templateFamily": "none",
+        "templateDisplayName": null,
+        "templateDisplayVersion": null
+    },
+    "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('fa0507af-7394-4976-9805-5e713183d3b2')/assignments",
+    "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('fa0507af-7394-4976-9805-5e713183d3b2')/assignments/$ref",
+    "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('fa0507af-7394-4976-9805-5e713183d3b2')/assignments",
+    "assignments": [],
+    "settings@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('fa0507af-7394-4976-9805-5e713183d3b2')/settings",
+    "settings@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('fa0507af-7394-4976-9805-5e713183d3b2')/settings/$ref",
+    "settings@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('fa0507af-7394-4976-9805-5e713183d3b2')/settings",
+    "settings": [
+        {
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+            "@odata.id": "deviceManagement/configurationPolicies('fa0507af-7394-4976-9805-5e713183d3b2')/settings('0')",
+            "@odata.editLink": "deviceManagement/configurationPolicies('fa0507af-7394-4976-9805-5e713183d3b2')/settings('0')",
+            "id": "0",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_audit_accountlogon_auditcredentialvalidation",
+                "settingInstanceTemplateReference": null,
+                "choiceSettingValue": {
+                    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                    "settingValueTemplateReference": null,
+                    "value": "device_vendor_msft_policy_config_audit_accountlogon_auditcredentialvalidation_3",
+                    "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+                    "children": []
+                }
+            },
+            "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('fa0507af-7394-4976-9805-5e713183d3b2')/settings('0')/settingDefinitions/$ref",
+            "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('fa0507af-7394-4976-9805-5e713183d3b2')/settings('0')/settingDefinitions"
+        },
+        {
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+            "@odata.id": "deviceManagement/configurationPolicies('50bcdbbf-c8d9-4098-b53d-7de05f30057f')/settings('1')",
+            "@odata.editLink": "deviceManagement/configurationPolicies('50bcdbbf-c8d9-4098-b53d-7de05f30057f')/settings('1')",
+            "id": "1",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditaccountlockout",
+                "settingInstanceTemplateReference": null,
+                "choiceSettingValue": {
+                    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                    "settingValueTemplateReference": null,
+                    "value": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditaccountlockout_2",
+                    "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+                    "children": []
+                }
+            },
+            "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('50bcdbbf-c8d9-4098-b53d-7de05f30057f')/settings('0')/settingDefinitions/$ref",
+            "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('50bcdbbf-c8d9-4098-b53d-7de05f30057f')/settings('0')/settingDefinitions"
+        },
+        {
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+            "@odata.id": "deviceManagement/configurationPolicies('6e6b9e6f-d4f3-459a-920e-2405263e9995')/settings('2')",
+            "@odata.editLink": "deviceManagement/configurationPolicies('6e6b9e6f-d4f3-459a-920e-2405263e9995')/settings('2')",
+            "id": "2",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditgroupmembership",
+                "settingInstanceTemplateReference": null,
+                "choiceSettingValue": {
+                    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                    "settingValueTemplateReference": null,
+                    "value": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditgroupmembership_1",
+                    "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+                    "children": []
+                }
+            },
+            "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('6e6b9e6f-d4f3-459a-920e-2405263e9995')/settings('0')/settingDefinitions/$ref",
+            "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('6e6b9e6f-d4f3-459a-920e-2405263e9995')/settings('0')/settingDefinitions"
+        },
+        {
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+            "@odata.id": "deviceManagement/configurationPolicies('34a867c9-c745-4047-8595-7dd8b9350344')/settings('3')",
+            "@odata.editLink": "deviceManagement/configurationPolicies('34a867c9-c745-4047-8595-7dd8b9350344')/settings('3')",
+            "id": "3",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogoff",
+                "settingInstanceTemplateReference": null,
+                "choiceSettingValue": {
+                    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                    "settingValueTemplateReference": null,
+                    "value": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogoff_1",
+                    "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+                    "children": []
+                }
+            },
+            "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('34a867c9-c745-4047-8595-7dd8b9350344')/settings('0')/settingDefinitions/$ref",
+            "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('34a867c9-c745-4047-8595-7dd8b9350344')/settings('0')/settingDefinitions"
+        },
+        {
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+            "@odata.id": "deviceManagement/configurationPolicies('810746fd-6bc7-47cc-979b-4ecb324482fc')/settings('4')",
+            "@odata.editLink": "deviceManagement/configurationPolicies('810746fd-6bc7-47cc-979b-4ecb324482fc')/settings('4')",
+            "id": "4",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogon",
+                "settingInstanceTemplateReference": null,
+                "choiceSettingValue": {
+                    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                    "settingValueTemplateReference": null,
+                    "value": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogon_3",
+                    "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+                    "children": []
+                }
+            },
+            "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('810746fd-6bc7-47cc-979b-4ecb324482fc')/settings('0')/settingDefinitions/$ref",
+            "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('810746fd-6bc7-47cc-979b-4ecb324482fc')/settings('0')/settingDefinitions"
+        }
+    ],
+    "#microsoft.graph.assign": {
+        "title": "microsoft.graph.assign",
+        "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('fa0507af-7394-4976-9805-5e713183d3b2')/microsoft.graph.assign"
+    },
+    "#microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget": {
+        "title": "microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget",
+        "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('fa0507af-7394-4976-9805-5e713183d3b2')/microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget"
+    },
+    "#microsoft.graph.createCopy": {
+        "title": "microsoft.graph.createCopy",
+        "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('fa0507af-7394-4976-9805-5e713183d3b2')/microsoft.graph.createCopy"
+    },
+    "#microsoft.graph.reorder": {
+        "title": "microsoft.graph.reorder",
+        "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('fa0507af-7394-4976-9805-5e713183d3b2')/microsoft.graph.reorder"
+    },
+    "#microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget": {
+        "title": "microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget",
+        "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('fa0507af-7394-4976-9805-5e713183d3b2')/microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget"
+    },
+    "#microsoft.graph.setEnrollmentTimeDeviceMembershipTarget": {
+        "title": "microsoft.graph.setEnrollmentTimeDeviceMembershipTarget",
+        "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('fa0507af-7394-4976-9805-5e713183d3b2')/microsoft.graph.setEnrollmentTimeDeviceMembershipTarget"
+    },
+    "#microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy": {
+        "title": "microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy",
+        "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('fa0507af-7394-4976-9805-5e713183d3b2')/microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy"
+    }
+}

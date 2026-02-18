@@ -1,0 +1,193 @@
+{
+    "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(assignments(),settings())/$entity",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
+    "@odata.id": "deviceManagement/configurationPolicies('90ece4af-9f93-4243-a6fa-ee989113040e')",
+    "@odata.editLink": "deviceManagement/configurationPolicies('90ece4af-9f93-4243-a6fa-ee989113040e')",
+    "createdDateTime@odata.type": "#DateTimeOffset",
+    "createdDateTime": "2025-08-28T09:02:16.6156995Z",
+    "creationSource": null,
+    "description": "CIS Benchmark v4 - Specify the maximum log file size (KB) for all event log channels (Application, Security, Setup, System) consolidated into a single policy.",
+    "lastModifiedDateTime@odata.type": "#DateTimeOffset",
+    "lastModifiedDateTime": "2025-08-28T09:02:16.6156995Z",
+    "name": "CISv4 - WIN - L1 - Specify Maximum Log File Size: All Channels",
+    "platforms@odata.type": "#microsoft.graph.deviceManagementConfigurationPlatforms",
+    "platforms": "windows10",
+    "priorityMetaData": null,
+    "roleScopeTagIds@odata.type": "#Collection(String)",
+    "roleScopeTagIds": [
+        "0"
+    ],
+    "settingCount": 4,
+    "technologies@odata.type": "#microsoft.graph.deviceManagementConfigurationTechnologies",
+    "technologies": "mdm",
+    "id": "90ece4af-9f93-4243-a6fa-ee989113040e",
+    "templateReference": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference",
+        "templateId": "",
+        "templateFamily@odata.type": "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
+        "templateFamily": "none",
+        "templateDisplayName": null,
+        "templateDisplayVersion": null
+    },
+    "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('90ece4af-9f93-4243-a6fa-ee989113040e')/assignments",
+    "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('90ece4af-9f93-4243-a6fa-ee989113040e')/assignments/$ref",
+    "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('90ece4af-9f93-4243-a6fa-ee989113040e')/assignments",
+    "assignments": [],
+    "settings@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('90ece4af-9f93-4243-a6fa-ee989113040e')/settings",
+    "settings@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('90ece4af-9f93-4243-a6fa-ee989113040e')/settings/$ref",
+    "settings@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('90ece4af-9f93-4243-a6fa-ee989113040e')/settings",
+    "settings": [
+        {
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+            "@odata.id": "deviceManagement/configurationPolicies('90ece4af-9f93-4243-a6fa-ee989113040e')/settings('0')",
+            "@odata.editLink": "deviceManagement/configurationPolicies('90ece4af-9f93-4243-a6fa-ee989113040e')/settings('0')",
+            "id": "0",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog",
+                "settingInstanceTemplateReference": null,
+                "choiceSettingValue": {
+                    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                    "settingValueTemplateReference": null,
+                    "value": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog_1",
+                    "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+                    "children": [
+                        {
+                            "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                            "settingDefinitionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog_channel_logmaxsize",
+                            "settingInstanceTemplateReference": null,
+                            "simpleSettingValue": {
+                                "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                                "settingValueTemplateReference": null,
+                                "value": 32768
+                            }
+                        }
+                    ]
+                }
+            },
+            "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('90ece4af-9f93-4243-a6fa-ee989113040e')/settings('0')/settingDefinitions/$ref",
+            "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('90ece4af-9f93-4243-a6fa-ee989113040e')/settings('0')/settingDefinitions"
+        },
+        {
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+            "@odata.id": "deviceManagement/configurationPolicies('298d92ae-bc27-45a1-be39-0b2d10c0ebba')/settings('1')",
+            "@odata.editLink": "deviceManagement/configurationPolicies('298d92ae-bc27-45a1-be39-0b2d10c0ebba')/settings('1')",
+            "id": "1",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog",
+                "settingInstanceTemplateReference": null,
+                "choiceSettingValue": {
+                    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                    "settingValueTemplateReference": null,
+                    "value": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog_1",
+                    "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+                    "children": [
+                        {
+                            "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                            "settingDefinitionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog_channel_logmaxsize",
+                            "settingInstanceTemplateReference": null,
+                            "simpleSettingValue": {
+                                "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                                "settingValueTemplateReference": null,
+                                "value": 196608
+                            }
+                        }
+                    ]
+                }
+            },
+            "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('298d92ae-bc27-45a1-be39-0b2d10c0ebba')/settings('0')/settingDefinitions/$ref",
+            "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('298d92ae-bc27-45a1-be39-0b2d10c0ebba')/settings('0')/settingDefinitions"
+        },
+        {
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+            "@odata.id": "deviceManagement/configurationPolicies('af2b7c7e-a1d7-4291-8c3d-8bd1b1f76488')/settings('2')",
+            "@odata.editLink": "deviceManagement/configurationPolicies('af2b7c7e-a1d7-4291-8c3d-8bd1b1f76488')/settings('2')",
+            "id": "2",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3",
+                "settingInstanceTemplateReference": null,
+                "choiceSettingValue": {
+                    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                    "settingValueTemplateReference": null,
+                    "value": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3_1",
+                    "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+                    "children": [
+                        {
+                            "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                            "settingDefinitionId": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3_channel_logmaxsize",
+                            "settingInstanceTemplateReference": null,
+                            "simpleSettingValue": {
+                                "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                                "settingValueTemplateReference": null,
+                                "value": 32768
+                            }
+                        }
+                    ]
+                }
+            },
+            "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('af2b7c7e-a1d7-4291-8c3d-8bd1b1f76488')/settings('0')/settingDefinitions/$ref",
+            "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('af2b7c7e-a1d7-4291-8c3d-8bd1b1f76488')/settings('0')/settingDefinitions"
+        },
+        {
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+            "@odata.id": "deviceManagement/configurationPolicies('fe570bd0-9dba-469e-baf4-5380266538a9')/settings('3')",
+            "@odata.editLink": "deviceManagement/configurationPolicies('fe570bd0-9dba-469e-baf4-5380266538a9')/settings('3')",
+            "id": "3",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog",
+                "settingInstanceTemplateReference": null,
+                "choiceSettingValue": {
+                    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                    "settingValueTemplateReference": null,
+                    "value": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog_1",
+                    "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+                    "children": [
+                        {
+                            "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                            "settingDefinitionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog_channel_logmaxsize",
+                            "settingInstanceTemplateReference": null,
+                            "simpleSettingValue": {
+                                "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                                "settingValueTemplateReference": null,
+                                "value": 32768
+                            }
+                        }
+                    ]
+                }
+            },
+            "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('fe570bd0-9dba-469e-baf4-5380266538a9')/settings('0')/settingDefinitions/$ref",
+            "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('fe570bd0-9dba-469e-baf4-5380266538a9')/settings('0')/settingDefinitions"
+        }
+    ],
+    "#microsoft.graph.assign": {
+        "title": "microsoft.graph.assign",
+        "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('90ece4af-9f93-4243-a6fa-ee989113040e')/microsoft.graph.assign"
+    },
+    "#microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget": {
+        "title": "microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget",
+        "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('90ece4af-9f93-4243-a6fa-ee989113040e')/microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget"
+    },
+    "#microsoft.graph.createCopy": {
+        "title": "microsoft.graph.createCopy",
+        "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('90ece4af-9f93-4243-a6fa-ee989113040e')/microsoft.graph.createCopy"
+    },
+    "#microsoft.graph.reorder": {
+        "title": "microsoft.graph.reorder",
+        "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('90ece4af-9f93-4243-a6fa-ee989113040e')/microsoft.graph.reorder"
+    },
+    "#microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget": {
+        "title": "microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget",
+        "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('90ece4af-9f93-4243-a6fa-ee989113040e')/microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget"
+    },
+    "#microsoft.graph.setEnrollmentTimeDeviceMembershipTarget": {
+        "title": "microsoft.graph.setEnrollmentTimeDeviceMembershipTarget",
+        "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('90ece4af-9f93-4243-a6fa-ee989113040e')/microsoft.graph.setEnrollmentTimeDeviceMembershipTarget"
+    },
+    "#microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy": {
+        "title": "microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy",
+        "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('90ece4af-9f93-4243-a6fa-ee989113040e')/microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy"
+    }
+}
